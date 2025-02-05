@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { sendMessage } from "../utils/openai";
 import { API_OPTIONS } from "../utils/constants";
-import { addGptMovieResult } from "../utils/GptSlice";
+import { addGptMovieResult } from "../utils/gptSlice";
 
 const GptSearchBar = () => {
   const searchText = useRef(null);

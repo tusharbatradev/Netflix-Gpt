@@ -1,6 +1,6 @@
 import axios from "axios";
 import { OPENAI_KEY } from "./constants";
-import { setAiResponse } from "./GptSlice";
+import { setAiResponse } from "./gptSlice";
 import { AI_API_URL } from "./constants";
 
 export const sendMessage = async (userMessage, dispatch) => {
